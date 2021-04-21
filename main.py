@@ -9,10 +9,10 @@ two_digit_number = input("Type a two digit number: ")
 ####################################
 #Write your code below this line 👇
 
-
-firstNumber = str(two_digit_number[0]);
-secondNumber = str(two_digit_number[1]);
-sumDigits = int(firstNumber) + int(secondNumber);
-print("The sum of the two digit number is:" + str(sumDigits));
-
+#Subscripting the input
+firstNumber = int(two_digit_number[0]);
+secondNumber = int(two_digit_number[1]);
+#Changing type for concatination 
+result = str(firstNumber + secondNumber);
+print("The sum of the two digit number is:" + result);
 
